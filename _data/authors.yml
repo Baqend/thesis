@@ -1,0 +1,57 @@
+Wolle:
+  name: Wolfram Wingerath
+  avatar: '/assets/images/wolle.png'
+  bio: 'Stream Processing, NoSQL, Analytics.'
+  location: 'Haus F, Raum 515'
+  email: 'wingerath@informatik.uni-hamburg.de'
+  uri: 'https://vsis-www.informatik.uni-hamburg.de/vsis/members/look/1316'
+  bitbucket: null
+  codepen: null
+  dribbble: null
+  flickr: null
+  facebook: null
+  foursquare: null
+  github: 'Baqend'
+  google_plus: null
+  keybase: null
+  instagram: null
+  lastfm: null
+  linkedin: null
+  pinterest: null
+  soundcloud: null
+  steam: null
+  tumblr: null
+  twitter: 'Baqendcom'
+  vine: null
+  weibo: null
+  youtube: 'https://www.youtube.com/channel/UCsImg6Ts8UEp6-7LE9CP2-Q?&ab_channel=Baqend'
+
+Felix:
+  name: Felix Gessert
+  avatar: '/assets/images/felix.jpg'
+  bio: 'NoSQL, Web/App Technologie, Caching.'
+  location: 'Haus F, Raum 528'
+  email: 'gessert@informatik.uni-hamburg.de'
+  uri: 'https://vsis-www.informatik.uni-hamburg.de/vsis/members/look/1264'
+  bitbucket: null
+  codepen: null
+  dribbble: null
+  flickr: null
+  facebook: null
+  foursquare: null
+  github: 'Baqend'
+  google_plus: null
+  keybase: null
+  instagram: null
+  lastfm: null
+  linkedin: 'felix-gessert-37892a76'
+  pinterest: null
+  soundcloud: null
+  stackoverflow: 'divinetraube'
+  steam: null
+  tumblr: null
+  twitter: 'Baqendcom'
+  vine: null
+  weibo: null
+  xing: 'Felix_Gessert'
+  youtube: 'https://www.youtube.com/channel/UCsImg6Ts8UEp6-7LE9CP2-Q?&ab_channel=Baqend'
