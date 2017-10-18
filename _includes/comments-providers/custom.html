@@ -3,7 +3,7 @@
 <script src="/assets/js/showdown.min.js"></script>
 <script>
 //Baqend logic
-DB.connect('thesis');
+DB.connect('http://localhost:8080/v1');
 DB.ready(function() {
   //Find comments for page, ordered by creation date
   DB.Comment.find()
