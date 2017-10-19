@@ -39,16 +39,6 @@
       "name": "mail",
       "type": "/db/String",
       "order": 3
-    },
-    "url": {
-      "name": "url",
-      "type": "/db/String",
-      "order": 4
-    },
-    "object": {
-      "name": "object",
-      "type": "/db/JsonObject",
-      "order": 5
     }
   }
 }
