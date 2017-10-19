@@ -1,24 +1,28 @@
 {
-  "name": "minimal-mistakes",
-  "version": "4.4.1",
-  "description": "Minimal Mistakes Jekyll theme npm build scripts",
+  "name": "thesis",
+  "version": "1.0.0",
+  "description": "Demo",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
+    "url": "git://github.com/Baqend/thesis"
   },
   "keywords": [
     "jekyll",
     "theme",
     "minimal"
   ],
-  "author": "Michael Rose",
+  "author": "Felix Gessert",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
+    "url": "https://github.com/Baqend/thesis"
   },
-  "homepage": "https://mmistakes.github.io/minimal-mistakes/",
+  "homepage": "https://github.com/Baqend/thesis",
   "engines": {
     "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "baqend": "^2.7.1",
+    "opn-cli": "^3.1.0"
   },
   "devDependencies": {
     "npm-run-all": "^1.7.0",
@@ -29,6 +33,12 @@
     "uglify": "uglifyjs assets/js/vendor/jquery/jquery-1.12.4.min.js assets/js/plugins/jquery.fitvids.js assets/js/plugins/jquery.greedy-navigation.js assets/js/plugins/jquery.magnific-popup.js assets/js/plugins/jquery.smooth-scroll.min.js assets/js/_main.js -c -m -o assets/js/main.min.js",
     "add-banner": "node banner.js",
     "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
-    "build:js": "npm run uglify && npm run add-banner"
-  }
+    "build:js": "npm run uglify && npm run add-banner",
+    "gen-pages": "bundle exec jekyll build",
+    "deploy-local": "baqend deploy -f _site http://localhost:8080/v1 -b www/blog",
+    "start-local": "opn http://localhost:8080/blog",
+    "schema-deploy": "baqend schema upload http://localhost:8080/v1",
+    "baqend": "baqend"
+  },
+  "main": "banner.js"
 }

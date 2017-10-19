@@ -11,11 +11,11 @@ defaults:
       related: true
       author: Felix
 locale: de
-title: Bachelor- & Masterarbeiten ISYS + Baqend
+title: Baqend Blog Demo
 title_separator: '-'
 name: Felix Gessert
 description: ''
-url: null
+url: /blog
 baseurl: null
 repository: null
 teaser: null
