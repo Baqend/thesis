@@ -15,8 +15,8 @@ title: Baqend Blog Demo
 title_separator: '-'
 name: Felix Gessert
 description: ''
-url: /blog
-baseurl: null
+url: null
+baseurl: /blog
 repository: null
 teaser: null
 words_per_minute: 200

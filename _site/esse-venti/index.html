@@ -19,7 +19,7 @@
 
 
 
-<title>Esse venti - Bachelor- &amp; Masterarbeiten ISYS + Baqend</title>
+<title>Esse venti - Baqend Blog Demo</title>
 
 
 
@@ -32,12 +32,9 @@
 <meta name="author" content="Felix">
 
 <meta property="og:locale" content="de">
-<meta property="og:site_name" content="Bachelor- & Masterarbeiten ISYS + Baqend">
+<meta property="og:site_name" content="Baqend Blog Demo">
 <meta property="og:title" content="Esse venti">
 
-
-  <link rel="canonical" href="http://localhost:4000/esse-venti/">
-  <meta property="og:url" content="http://localhost:4000/esse-venti/">
 
 
 
@@ -70,7 +67,7 @@
       "@context" : "http://schema.org",
       "@type" : "Person",
       "name" : "Felix Gessert",
-      "url" : "http://localhost:4000",
+      "url" : null,
       "sameAs" : null
     }
   </script>
@@ -83,7 +80,7 @@
 <!-- end SEO -->
 
 
-<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Bachelor- & Masterarbeiten ISYS + Baqend Feed">
+<link href="/blog/feed.xml" type="application/atom+xml" rel="alternate" title="Baqend Blog Demo Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -95,7 +92,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<link rel="stylesheet" href="/blog/assets/css/main.css">
 
 <!--[if lte IE 9]>
   <style>
@@ -129,14 +126,14 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="http://localhost:4000/">Bachelor- & Masterarbeiten ISYS + Baqend</a>
+        <a class="site-title" href="/blog/">Baqend Blog Demo</a>
         <ul class="visible-links">
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/about/">Einführung</a></li>
+            <li class="masthead__menu-item"><a href="/blog/about/">Einführung</a></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/paper/">Paper</a></li>
+            <li class="masthead__menu-item"><a href="/blog/paper/">Paper</a></li>
           
         </ul>
         <button><div class="navicon"></div></button>
@@ -160,7 +157,7 @@
   
     <div class="author__avatar">
       
-        <img src="http://localhost:4000/assets/images/felix.jpg" class="author__avatar" alt="Felix Gessert" itemprop="image">
+        <img src="/blog/assets/images/felix.jpg" class="author__avatar" alt="Felix Gessert" itemprop="image">
       
     </div>
   
@@ -386,7 +383,7 @@ impelli resolvit modis tantique, vulnera durum, cum lenta.</p>
     
       
       
-      <a href="http://localhost:4000/tags/#blog" class="page__taxonomy-item" rel="tag">Blog</a>
+      <a href="/blog/tags/#blog" class="page__taxonomy-item" rel="tag">Blog</a>
     
     </span>
   </p>
@@ -404,7 +401,7 @@ impelli resolvit modis tantique, vulnera durum, cum lenta.</p>
       
   <nav class="pagination">
     
-      <a href="http://localhost:4000/ego-virgo-stimuletur-fulminis-vimque/" class="pagination--pager" title="Ego virgo stimuletur fulminis vimque
+      <a href="/blog/ego-virgo-stimuletur-fulminis-vimque/" class="pagination--pager" title="Ego virgo stimuletur fulminis vimque
 ">Vorherige</a>
     
     
@@ -480,7 +477,7 @@ impelli resolvit modis tantique, vulnera durum, cum lenta.</p>
     
     
     
-    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    <li><a href="/blog/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
@@ -488,7 +485,7 @@ impelli resolvit modis tantique, vulnera durum, cum lenta.</p>
       </footer>
     </div>
 
-    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+    <script src="/blog/assets/js/main.min.js"></script>
 
 
 
@@ -499,7 +496,7 @@ impelli resolvit modis tantique, vulnera durum, cum lenta.</p>
 <script src="/assets/js/showdown.min.js"></script>
 <script>
 //Baqend logic
-DB.connect('http://localhost:8080/v1');
+DB.connect();
 DB.ready(function() {
   //Find comments for page, ordered by creation date
   DB.Comment.find()
